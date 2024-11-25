@@ -109,8 +109,34 @@ namespace GorillaComputer
                     ComputerLocation = "MetroMain/ComputerArea/GorillaComputerObject",
                     UseFallbackMethod = true
                 }
+            },
+                        // im bad a t codint so im just copying what was before
+            {
+                "MonkeBlocks",
+                new ComputerSceneLocation()
+                {
+                    ComputerName = "MonkeBlocksComputer",
+                    ComputerLocation = "Environment Objects/MonkeBlocksRoomPersistent/MonkeBlocksComputer/GorillaComputerObject",
+                    UseFallbackMethod = true
+                    // i wonder if this actually works 😭😭😭😭😭
+                }
+            },
+            // im just gonna copy paste for sewers or bayou or whatever its called
+            // nvm its in a different scene so idk
+            // i figured it out
+            {
+                "Bayou",
+                new ComputerSceneLocation()
+                {
+                    ComputerName = "PcForSewerRats",
+                    ComputerLocation = "BayouMain/ComputerArea/GorillaComputerObject",
+                    UseFallbackMethod = true
+                    // wonderfull computer name right
+                    // im great at codering
+                }
             }
         };
+        // btw all of that are thoughts to myself 💀💀👽👽👽👽👽😁
 
         public async void Awake()
         {
